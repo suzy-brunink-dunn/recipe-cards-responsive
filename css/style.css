@@ -1,0 +1,255 @@
+
+/* Universal Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    font-family: 'Open sans', sans-serif;
+    font-size: 1em;
+    justify-content: center;
+}
+
+.container {
+    align-items: center;
+    color: #3B3B3B;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 90%;
+}
+
+/* Header Styles */
+
+header {
+    align-items: center;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+header .content {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+h1 {
+    color: #F16059;
+    font-family: 'Montserrat';
+    font-size: 2em;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;  
+    width: 100%;
+}
+
+header img {
+   padding-right: 20px;
+}
+
+/* Recipe Card Main Body Styles */
+
+.card {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.recipe {
+    align-items: center;
+    background: #fff;
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    justify-content: center;
+    width: 100%;  
+}
+
+.image {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Recipe Headline Styles */
+
+.recipe h2 {
+    color: #F16059;
+    font-family: 'Montserrat';
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-top: 0;
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.recipe h3 {
+    border-bottom: 1px solid #3B3B3B;
+    border-top: 1px solid #3B3B3B;
+    color: #F16059;
+    font-family: 'Montserrat';
+    font-size: .75em;
+    padding: 3px;
+    text-transform: uppercase;
+    font-weight: 700; 
+}
+
+/* Time Styles */
+
+.time {
+    align-items: center;
+    display: flex;
+    border: 1px solid #3B3B3B;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 8px;
+    width: 100%;    
+}
+
+.time .prep,
+.time .cook,
+.time .total {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8px 0 8px 12px;
+    text-transform: uppercase;
+    width: 33%;
+}
+
+.time .prep p,
+.time .cook p,
+.time .total p {
+    margin: 0;
+    padding: 5px 0 0 0;
+}
+
+.time .cook {
+    border-left: 1px solid #3B3B3B;
+    border-right: 1px solid #3B3B3B;
+}
+
+.time img {
+    height: auto;
+    padding-top: 5px;
+    width: 20px;
+}
+
+.time strong {
+    font-family:'Montserrat';
+}
+
+/* Directions and Ingredients Styles */
+
+.description {
+    line-height: 25px;
+    width: 100%;
+}
+
+.columns {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.ingredients,
+.directions {
+    width: 48%;  
+} 
+
+.ingredients ul,
+.directions ol {
+    font-size: .95em;
+    padding-left: 18px;
+}
+
+.ingredients ul {
+    line-height: 35px; 
+    list-style-type: square;  
+}
+
+.directions ol {
+   line-height: 28px;
+}
+
+/* Tablet styles */
+
+@media all and (min-width: 768px) {
+    .card {
+        align-items: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin: 20px auto;
+        width: 100%;
+    }
+    
+    .recipe {
+        align-items: center;
+        background: #fff;
+        display: flex;
+        flex-flow: row wrap;
+        height: 45%;
+        justify-content: center;
+        width: 50%;  
+    }
+    
+    .image {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        height: 45%;
+    }
+}
+
+
+
+
+/* Desktop styles */
+
+@media all and (min-width: 1200px) {
+
+
+}
+
+
+
+
+
+
+
+
+
+
